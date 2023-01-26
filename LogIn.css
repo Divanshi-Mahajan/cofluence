@@ -1,0 +1,367 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(to right bottom,#679af8,#2d4fac, rgb(139, 8, 190));
+    height: 100%;
+}
+
+.container{
+    margin: 0%;
+    max-width: none;
+}
+
+.navbar,nav{
+    background-color: rgba(255, 255, 255, 0.774);
+}
+
+.col-4 p a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.45vw;
+    text-decoration: none;
+    margin-right: 4.5%;
+    margin-left: 0%;
+}
+
+
+.login-btn{
+    padding: 7px 15px;
+    background-color: #2c54c0;
+    color: white !important;
+    border-radius: 8px;
+}
+
+.navbar-brand img{
+    width: 10vw;
+}
+
+.Block{
+    transform: translateY(12.5%);
+}
+
+
+.wrapper{
+    box-shadow: 5px 5px 15px black;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.image-container img{
+    width: 100%;
+}
+
+
+.form-container{
+    padding: 2%;
+}
+
+.form-wrap{
+  margin-top: 0%;
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+label,.input-group{
+    margin-top: 5%;
+    font-family: sans-serif;
+    font-size: 1.2vw;
+}
+
+.form-control{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(20, 5, 61, 0.568);
+    border-radius: 0%;
+    width: 90%;
+}
+
+.form-para{
+    text-align: center;
+}
+
+.form-para button{
+    background-color: rgb(255, 174, 0);
+    font-family: sans-serif;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 10px;
+    color: azure;
+    padding: 5px 20px;
+    margin-top: 5%;
+}
+
+.forgot{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.forgot a{
+    font-family: sans-serif;
+    color: #2d4fac;
+    text-decoration: none;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.remember{
+    margin-top: 2%;
+}
+.Footer{
+    background-color: rgb(4, 37, 59);
+    padding: 2%;
+	margin-top:8%;
+}
+
+.footer-card{
+    background-color:rgba(255, 255, 255, 0.356);
+}
+
+.footer-message{
+    color: aliceblue;
+    font-size: 1.2vw;
+}
+i{
+    color: aliceblue;
+    font-size: 2vw;
+    margin-right: 12%;
+}
+
+.Links h4{
+    text-align: center;
+    color:white;
+}
+
+.Links ul{
+    list-style: none;
+    color:white;
+    float: left;
+    font-size: 1.2vw;
+    margin-top: 5%;
+}
+
+.Links li{
+    margin-bottom: 10%;
+}
+
+.newsletter{
+    color:aliceblue
+}
+
+.newsletter-text{
+    margin-top: 5%;
+}
+
+.mobile{
+	display:none;
+}
+
+@media screen and (max-width: 420px){
+	.navbar-brand img{
+		width: 30vw;
+	}
+	.image-container img{
+		display:none;
+		width:0% !important;
+	}
+	.form-container{
+        padding: 20px 5px 30px 5px;
+	}
+	label,.input-group{
+        margin-top: 5%;
+        font-family: sans-serif;
+        font-size: 16px;
+	}
+	.form-control{
+        width: 105%;
+	}
+	.forgot a{
+        font-size: 11px;
+        text-align: center;
+	}
+	.forgot{
+        text-align: center;
+        margin-top: 2%;
+		margin-bottom: 7%;
+	}
+	.form-para button{
+    font-size: 4.3vw;
+	}
+	.col-4 p a{
+    font-size: 4vw;
+    margin:1%;
+	}
+	.col-4{
+    padding-left: 2%;
+	padding-right: 10%;
+	text-align: center!important;
+	}
+	.form-wrap{
+         margin-top: 4%;
+	}
+	.remember{
+    margin-top: 0%;
+	margin-bottom: 4%;
+	}
+	.space{
+		display:none;
+	}
+	.col-6{
+		width:auto;
+	}
+	.hor{
+		width:73%;
+		padding-right:0%;
+		padding-left:10%;
+	}
+	.form-para a{
+        font-size:3.3vw;	
+	}
+	.Footer{
+		margin-top:28%;
+	}
+	.card-img-top{
+		display:none;
+	}
+	.footer-message{
+    font-size: 4vw;
+	margin-top: 10%;
+	}
+    .footer-card{
+        background-color:transparent;
+	}
+	i{
+        color: aliceblue;
+        font-size: 6vw;
+        margin-right: 8%;
+	}
+	.mobile{
+		display:block;
+	}
+	.newsletter-text{ 
+	    color:white;
+	}
+	.mobile-col{
+		color:white;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.navbar-brand img{
+		width: 30vw;
+	}
+	.image-container img{
+		display:none;
+		width:0% !important;
+	}
+	.form-container{
+        padding: 20px 5px 30px 40px;
+	}
+	label,.input-group{
+        margin-top: 5%;
+        font-family: sans-serif;
+        font-size: 24.9px;
+	}
+	.form-control{
+        width: 110%;
+	}
+	.forgot a{
+        font-size: 18.1px;
+        text-align: center;
+	}
+	.forgot{
+        text-align: center;
+        margin-top: 5%;
+		margin-bottom: 7%;
+	}
+	.form-para button{
+    font-size: 3.7vw;
+	margin-top:1.4%;
+	margin-left:7%;
+	}
+	.col-4 p a{
+    font-size: 4vw;
+    margin:2%;
+	}
+	.col-4{
+    padding-left: 2%;
+	padding-right: 10%;
+	text-align: center!important;
+	}
+	.form-wrap{
+         margin-top: 4%;
+	}
+	.remember{
+    margin-top: 0%;
+	margin-bottom: 4%;
+	}
+	.space{
+		display:none;
+	}
+	.col-6{
+		width:auto;
+	}
+	.hor{
+		width:73%;
+		padding-right:0%;
+		padding-left:10%;
+	}
+	.form-para a{
+        font-size:3.2vw;	
+	}
+	.Footer{
+		margin-top:28%;
+	}
+	.card-img-top{
+		display:none;
+	}
+	.footer-message{
+    font-size: 1vw;
+	margin-top: 6.7%;
+	}
+    .footer-card{
+        background-color:transparent;
+	}
+	i{
+        color: aliceblue;
+        font-size: 6vw;
+        margin-right: 6.5%;
+	}
+	.mobile{
+		display:block;
+	}
+	.newsletter-text{ 
+	    color:white;
+		font-size: 22.9px
+	}
+	.mobile-col{
+		color:white;
+	}
+	.form-container h2{
+		font-size:40px;
+	}
+	.h4, h4{
+		font-size:34.5px;
+	}
+	.h2, h2{
+		margin-left: 6.7%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
